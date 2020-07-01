@@ -10,7 +10,7 @@ section{
     
 }
 .header-part{
-    background-image: url(img/header-bg.png);
+    background-image: url('img/header-bg.png');
     background-size: cover;
     height:700px;
   
@@ -22,7 +22,7 @@ section{
  padding-left: 2%;
  
 }
-.header-text{
+#headertext{
     margin-top: 10%;
     margin-left: 10%;
 }
@@ -30,7 +30,7 @@ section{
     font-size: 40px;
     line-height: 0.4;
 }
-.hire_btn{
+.btn_primary{
     text-decoration: none;
     background-image:linear-gradient(45deg,rgb(212, 126, 162),rgb(236, 13, 106));
     color:#fff;
@@ -52,4 +52,12 @@ section{
 .half-width img{
     width: 80%;
    
+}
+.bio-part{
+    background-image: url('img/biography-bg.png');
+    background-size: cover;
+    height:700px;
+}
+#biotext{
+    margin-top: 5%;
 }
