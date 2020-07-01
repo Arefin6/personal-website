@@ -55,9 +55,31 @@ section{
 }
 .bio-part{
     background-image: url('img/biography-bg.png');
-    background-size: cover;
+    background-size: 50%;
     height:700px;
 }
 #biotext{
     margin-top: 5%;
+}
+.recent-work{
+    height:500px;
+    background-image:url('img/latest-work-bg.png') ;
+    background-size: cover;
+    background-position: right;
+    padding:100px 29px;
+}
+.recent-work h2{
+  text-align: center;
+  margin-bottom:70px;
+  font-size: 34px;
+
+}
+.one-third{
+ width:30%;
+ float: left;
+ margin-left: 43px;
+   
+}
+.one-third img{
+    width: 90%;
 }
