@@ -83,3 +83,60 @@ section{
 .one-third img{
     width: 90%;
 }
+.testimonial{
+    height:535px;
+    background-image: url('img/footer-bg.png');
+    background-size: 80%;
+    text-align: center;
+
+}
+.testimonial h1{
+    font-size: 50px;
+    line-height: 1.5;
+}
+.testimonial h2{
+    font-size: 30px;
+    line-height: 0.5;
+    
+}
+.testimonial h3{
+    font-size: 18px;
+    line-height: 0.5;
+    font-weight: 300;
+    color:slategray
+    
+}
+.testimonial p{
+    font-size: 16px;
+    margin: 40px 50px;  
+    line-height: 1.8;   
+    
+}
+.bigbtn{
+   
+    background-image:linear-gradient(-45deg,rgb(212, 126, 162),rgb(236, 13, 106));
+    color:#fff;
+    padding:2.5% 7%;
+    border-radius: 5px;
+    position:absolute;
+    left:20%;
+    margin-left: 50%;
+    
+ 
+}
+ .msg{
+   display: block;
+   font-size: 14px;
+   margin: 25px;
+  
+}
+.email{
+    display: block;
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+    color:dimgrey;
+    font-size: 14px;
+    padding:5% 2%;
+}
